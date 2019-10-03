@@ -10,6 +10,9 @@ Create an array of strings called `colors` that contain "orange", "red", "yellow
 
 Then, using array subscripting and string interpolation, print out the String `"orange, yellow, and lavender are some of my favorite colors"`.
 
+//  Answers:    
+var colors = ["orange", "red", "yellow", "turquoise", "lavender"]
+print("\(colors[colors.count - 5]), \(colors[colors.count - 3]), \(colors[colors.count - 1]) are some of my favorite colors")
 
 ## Question 2
 
